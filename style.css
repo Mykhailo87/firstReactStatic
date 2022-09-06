@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    background-color: #23252C;
+}
+
+.rectangle{
+    margin: auto;
+    width: 317px;
+    height: 675px;
+    background-color: #1A1B21;
+    border-radius: 10px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.info{
+    background-color: #1A1B21
+}
+.info-foto{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.info-name{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 15px;
+    font-weight: bold 25;
+    background-color: #1A1B21;
+}
+.info-profesion{
+    text-align: center;
+    margin: auto;
+    color: #F3BF99;
+    background-color: #1A1B21;
+}
+.info-web{
+    text-align: center;
+    margin: auto;
+    padding: 7px;
+    color:azure;
+    background-color: #1A1B21;
+}
+.info-button{
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    width: 247px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+.info-button img{
+    vertical-align: middle;
+    margin: auto;
+    background-color: white;
+    padding-right: 5px;
+}
+
+.about{
+    background-color: #1A1B21;
+    color: #DCDCDC;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.about h5{
+    background-color: #1A1B21;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.about p{
+    background-color: #1A1B21;
+    padding-top: 5px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.interest{
+    background-color: #1A1B21;
+    color:#DCDCDC;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.interest h5{
+    background-color: #1A1B21;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.interest p{
+    background-color: #1A1B21;
+    padding-top: 5px;
+    margin-top: 0px;
+    font-size: 11px;
+}
+
+.footer{
+    display: flex;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    justify-content: space-between;
+}
+.footer img{
+    width: 25px;
+}
